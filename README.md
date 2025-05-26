@@ -18,4 +18,4 @@ The superellipse effect is achieved by combining multiple `border-radius` techni
 4. To customize the shape, edit the CSS variables at the top of styles.css:
 
 ## Source
-![css-superellipse](https://sbx.webflow.io/css-superellipse)
+[css-superellipse](https://sbx.webflow.io/css-superellipse)
