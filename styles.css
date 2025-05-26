@@ -31,8 +31,8 @@ body {
 .superellipse {
 	width: var(--superellipse-width);
 	height: var(--superellipse-height);
-	position: relative;
 	border-radius: var(--superellipse-border-radius);
+	position: relative;
 	background-color: var(--bg-color);
 }
 
@@ -41,11 +41,11 @@ body {
 	content: '';
 	position: absolute;
 	z-index: -1;
+	background-color: var(--bg-color-contrast);
 }
 
 .superellipse::before {
 	border-radius: 2%/30%;
-	background-color: var(--bg-color-contrast);
 	top: var(--overlap-inset);
 	bottom: var(--overlap-inset);
 	right: var(--overlap-offset);
@@ -54,7 +54,6 @@ body {
 
 .superellipse::after {
 	border-radius: 30%/2%;
-	background-color: var(--bg-color-contrast);
 	left: var(--overlap-inset);
 	right: var(--overlap-inset);
 	top: var(--overlap-offset);
