@@ -17,5 +17,14 @@ The superellipse effect is achieved by combining multiple `border-radius` techni
 3. You will see a centered superellipse created using only CSS.
 4. To customize the shape, edit the CSS variables at the top of styles.css:
 
+## css variable
+- bg-color: #fff; /* Main background color of the superellipse */
+- bg-color-contrast: #afafaf; /* Contrast color for layered shadows */
+- superellipse-width: 400px; /* Width of the superellipse */
+- superellipse-height: 400px; /* Height of the superellipse */
+- superellipse-border-radius: 20%; /* Base border-radius for the shape */
+- overlap-inset: 15%; /* Inset distance for pseudo-elements */
+- overlap-offset: calc(1.1% * -1); /* Negative offset for overlap effect */
+
 ## Source
 [css-superellipse](https://sbx.webflow.io/css-superellipse)
