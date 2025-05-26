@@ -16,3 +16,6 @@ The superellipse effect is achieved by combining multiple `border-radius` techni
 2. Open index.html in a modern web browser.
 3. You will see a centered superellipse created using only CSS.
 4. To customize the shape, edit the CSS variables at the top of styles.css:
+
+## Source
+![css-superellipse](https://sbx.webflow.io/css-superellipse)
