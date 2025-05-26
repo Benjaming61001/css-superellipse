@@ -6,7 +6,7 @@ This project demonstrates how to create a **superellipse shape** using CSS. A su
 - `styles.css`: Contains all CSS styles, including the code to create the superellipse effect.
 
 ## Demo
-![Example](example.png)
+![Example](example.jpeg)
 
 ## CSS Superellipse Technique
 The superellipse effect is achieved by combining multiple `border-radius` techniques on pseudo-elements:
